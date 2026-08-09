@@ -1,0 +1,9 @@
+[project]
+name = "skill-create-ebook"
+version = "0.1.0"
+description = "Bundled tools for the BB create-ebook skill"
+requires-python = ">=3.12"
+dependencies = [
+    "lxml==6.1.1",
+    "standardebooks==4.0.3",
+]
